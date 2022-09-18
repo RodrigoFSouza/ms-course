@@ -1,13 +1,13 @@
-package br.com.cronos.eurekaserver;
+package br.com.cronos.hreurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EurekaServerApplication {
+public class HrEurekaServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EurekaServerApplication.class, args);
+		SpringApplication.run(HrEurekaServerApplication.class, args);
 	}
 
 }
